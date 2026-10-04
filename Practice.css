@@ -1,0 +1,71 @@
+body {
+  background-color: green;
+}
+
+form {
+  background: yellowgreen;
+  padding: 30px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  color: white;
+  font-family: Verdana;
+  font-size: 12px;
+  text-align: center;
+}
+
+label {
+  color: white;
+  text-align: left;
+  display: inline-block;
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+form button {
+  display: block;
+  margin: 15px auto 0;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: antiquewhite;
+  cursor: pointer;
+}
+form select {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+div {
+  text-align: center;
+  color: white;
+}
+
+h4 {
+  color: white;
+  text-align: center;
+}
