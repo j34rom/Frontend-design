@@ -53,3 +53,16 @@
 .status-badge.pending { background-color: #e67e22; }
 .status-badge.processing { background-color: #2980b9; }
 .status-badge.finished { background-color: #27ae60; }
+
+.status-buttons {
+  margin-top: 10px;
+  display: flex;
+  gap: 6px;
+}
+
+.status-buttons button {
+  flex: 1;
+  padding: 6px;
+  font-size: 12px;
+  width: auto;
+}
