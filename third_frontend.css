@@ -1,0 +1,55 @@
+.stats-container {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin: 24px auto;
+  max-width: 500px;
+  padding: 0 16px;
+}
+
+.stat-box {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  flex: 1;
+  min-width: 90px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.stat-box h2 { margin: 0; font-size: 28px; }
+.stat-box p { margin: 4px 0 0; color: #333; font-weight: bold; }
+.stat-box.pending h2 { color: #e67e22; }
+.stat-box.processing h2 { color: #2980b9; }
+.stat-box.finished h2 { color: #27ae60; }
+
+.reports-list {
+  max-width: 500px;
+  margin: 0 auto 24px;
+  padding: 0 16px;
+}
+
+.report-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.report-card h4 { margin: 0 0 8px; color: #1A3A8A; }
+.report-card p { text-align: left; color: #333; margin: 4px 0; }
+
+.status-badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
+}
+
+.status-badge.pending { background-color: #e67e22; }
+.status-badge.processing { background-color: #2980b9; }
+.status-badge.finished { background-color: #27ae60; }
